@@ -17,12 +17,10 @@ l h m
 0 3 5 9=9
 
 """
-
-# v0 27.58% recursive
-
 from typing import List
 
 
+# v0 27.58% recursive
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def _search(low: int, high: int) -> int:
@@ -47,12 +45,11 @@ print(f"{sol.search(nums = [-1,0,3,5,9,12], target = 13) = }")
 
 
 # v1 76.98% while
-
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums)-1
         while low <= high:
-            mid = (low + high) // 2
+            mid = (high - low) // 2 + low
             print(low, mid, high)
             if nums[mid] == target:
                 return mid
@@ -65,6 +62,6 @@ class Solution:
 
 
 sol = Solution()
-# print(f"{sol.search(nums = [-1,0,3,5,9,12], target = 9) = }")
-# print(f"{sol.search(nums = [-1,0,3,5,9,12], target = 2) = }")
+print(f"{sol.search(nums = [-1,0,3,5,9,12], target = 9) = }")
+print(f"{sol.search(nums = [-1,0,3,5,9,12], target = 2) = }")
 print(f"{sol.search(nums = [-13], target = -13) = }")

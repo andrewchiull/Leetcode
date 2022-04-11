@@ -32,7 +32,7 @@ Return the number that I picked.
 pick = 10
 
 
-def guess(num: int) -> bool:
+def guess(num: int) -> int:
     if num > pick:
         return -1
     elif num < pick:
