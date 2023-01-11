@@ -2,6 +2,8 @@
 452. Minimum Number of Arrows to Burst Balloons
 https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 
+Daily Challenge of 2023-01-05
+
 @Medium
 
 @Array

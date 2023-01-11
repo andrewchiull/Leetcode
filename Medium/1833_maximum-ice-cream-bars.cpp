@@ -2,6 +2,8 @@
 1833. Maximum Ice Cream Bars
 https://leetcode.com/problems/maximum-ice-cream-bars/
 
+Daily Challenge of 2023-01-06
+
 @Medium
 @Array
 @Greedy
