@@ -37,7 +37,7 @@ using namespace std;
 //         return a[1] < b[1];
 //     }
 //     int findMinArrowShots(vector<vector<int>>& points) {
-//         // int rMax = -(int)numeric_limits<double>::infinity(); // HOTFIX not working
+//         // int rMax = -(int)numeric_limits<double>::infinity(); // not working
 //         // int rMax = -std::numeric_limits<int>::max();
 
 //         sort(points.begin(), points.end(), comp);
